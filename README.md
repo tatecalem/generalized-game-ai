@@ -1,4 +1,4 @@
-The main function is in GameAI1.cpp.
+The main function is in GameAI1.cpp.  There is a demonstration() function that shows you the main features of the program.
 
 My program contains 2 different ways of finding the best move in a given situation: minimax (slower) and alphabeta tree pruning (faster).
 Both find the optimal move as determined by a (subjective) evaluation function.
