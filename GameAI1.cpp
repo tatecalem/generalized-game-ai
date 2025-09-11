@@ -22,7 +22,7 @@ int main()
 void demonstration()
 {
     cout << "Here's a demonstration of some things this code can do." << endl;
-    cout << "  It can play TicTacToe against itself, calculating all the way" << endl;
+    cout << "  It can play TicTacToe against itself, calculating all the way to the endgame" << endl;
     cout << "   to the end of the game.  It uses alpha-beta tree pruning." << endl;
     TicTacToe g1;
     ai_vs_ai(g1, alphabeta_only_move, 9);
